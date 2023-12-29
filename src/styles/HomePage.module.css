@@ -1,0 +1,40 @@
+.carouselImage {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Footer styling */
+.Footer {
+  
+  color: #fafafa;
+  padding: 20px 0;
+  background-color: black;
+}
+
+.ContactInfo {
+  margin-left: 20px;
+}
+
+/* Social media icons */
+.fa-twitter, .fa-facebook-f, .fa-linkedin-in {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+/* Button styling from appStyles */
+.Button {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+

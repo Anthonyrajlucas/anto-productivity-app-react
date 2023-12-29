@@ -1,0 +1,84 @@
+.ProfileImage {
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    margin: 4px;
+    border: 1px solid #120E16;
+  }
+  
+  
+  .ProfileBox {
+  background-color: #F6F6F7;
+  border: 1px solid #B5B5B5;
+  margin: 10px 0 0 0 !important;
+  }
+  
+  .TextAlignCenter {
+  text-align: center;
+  }
+  
+  .DivFlexParent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  }
+  
+  .DivFlexChild {
+  flex-grow: 1;
+  }
+  
+  .TopMargin {
+  margin-top: 20px;
+  }
+  
+  .ButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .PositionedButton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 20px;
+  }
+  
+  .PasswordButton {
+  border-color: #F6F6F7;
+  background-color: #613FE5 !important;
+  color: #F6F6F7;
+  margin: 0 10px 20px 20px;
+  width: 200px;
+  }
+  
+  .ContentWidth {
+  max-width: 900px;
+  margin: auto;
+  }
+  
+  .SearchMargin {
+  margin-top: 50px !important;
+  }
+  
+  .MiniProfileBox {
+  height: 80px;
+  border: none;
+  background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(246,246,247,1) 100%);
+  }
+  
+  @media only screen and (max-width: 768px) {
+  .info {
+    display: none;
+  }
+  }
+  
+  @media only screen and (max-width: 575px) {
+   
+  .PositionedButton {
+    position: absolute;
+    top: -250px;
+    }
+  }

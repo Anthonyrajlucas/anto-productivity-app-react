@@ -1,0 +1,54 @@
+/* TaskList.module.css */
+
+.taskListRoot {
+    text-align: center;
+    background-color: lightblue;
+    padding: 32px;
+    border-radius: 8px;
+  }
+  
+  .createButton {
+    margin-top: 16px;
+  }
+  
+  .taskListTitle {
+    margin-bottom: 16px;
+  }
+
+  .searchFormControl {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .searchInput {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .dropdownFormControl {
+    width: 200px; 
+  }
+  
+  .overdueTask {
+    color: red;
+  }
+  
+  .CenterAlignForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Or any other height as required */
+  }
+
+  .CustomFormWidth {
+    max-width: 800px; /* or any other width */
+    margin: auto; /* for centering */
+  }

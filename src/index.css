@@ -1,3 +1,12 @@
+:root {
+  --peeral:#eee3cf;
+  --wheat: #f7dcb1;
+  --ashgray: #C0CFC8;
+  --cadetgray:#7f9193;
+  --moonstone: #23bad2;
+  --green: #28a745; 
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
